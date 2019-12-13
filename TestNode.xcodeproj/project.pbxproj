@@ -18,6 +18,7 @@
 		13D346D723A33FE5008FCC90 /* TestNodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D346D623A33FE5008FCC90 /* TestNodeUITests.m */; };
 		13D346E623A3404E008FCC90 /* ANode.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D346E523A3404E008FCC90 /* ANode.m */; };
 		13D346E923A340D4008FCC90 /* BNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D346E823A340D4008FCC90 /* BNode.m */; };
+		13D346EC23A34140008FCC90 /* CNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D346EB23A34140008FCC90 /* CNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		13D346E523A3404E008FCC90 /* ANode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANode.m; sourceTree = "<group>"; };
 		13D346E723A340D4008FCC90 /* BNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNode.h; sourceTree = "<group>"; };
 		13D346E823A340D4008FCC90 /* BNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNode.m; sourceTree = "<group>"; };
+		13D346EA23A34140008FCC90 /* CNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNode.h; sourceTree = "<group>"; };
+		13D346EB23A34140008FCC90 /* CNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				13D346B023A33FE1008FCC90 /* AppDelegate.m */,
 				13D346E423A3404E008FCC90 /* ANode.h */,
 				13D346E523A3404E008FCC90 /* ANode.m */,
+				13D346EA23A34140008FCC90 /* CNode.h */,
+				13D346EB23A34140008FCC90 /* CNode.m */,
 				13D346E723A340D4008FCC90 /* BNode.h */,
 				13D346E823A340D4008FCC90 /* BNode.m */,
 				13D346B223A33FE1008FCC90 /* SceneDelegate.h */,
@@ -282,6 +287,7 @@
 				13D346B123A33FE1008FCC90 /* AppDelegate.m in Sources */,
 				13D346C223A33FE4008FCC90 /* main.m in Sources */,
 				13D346E623A3404E008FCC90 /* ANode.m in Sources */,
+				13D346EC23A34140008FCC90 /* CNode.m in Sources */,
 				13D346B423A33FE1008FCC90 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
