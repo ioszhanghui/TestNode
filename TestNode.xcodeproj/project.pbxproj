@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1320D44E23A365AB00C3BD39 /* CNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1320D44A23A365AB00C3BD39 /* CNode.m */; };
+		1320D44F23A365AB00C3BD39 /* ANode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1320D44B23A365AB00C3BD39 /* ANode.m */; };
 		13D346B123A33FE1008FCC90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D346B023A33FE1008FCC90 /* AppDelegate.m */; };
 		13D346B423A33FE1008FCC90 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D346B323A33FE1008FCC90 /* SceneDelegate.m */; };
 		13D346B723A33FE1008FCC90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D346B623A33FE1008FCC90 /* ViewController.m */; };
@@ -17,8 +19,7 @@
 		13D346CC23A33FE5008FCC90 /* TestNodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D346CB23A33FE5008FCC90 /* TestNodeTests.m */; };
 		13D346D723A33FE5008FCC90 /* TestNodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D346D623A33FE5008FCC90 /* TestNodeUITests.m */; };
 		13D346E623A3404E008FCC90 /* ANode.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D346E523A3404E008FCC90 /* ANode.m */; };
-		13D346E923A340D4008FCC90 /* BNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D346E823A340D4008FCC90 /* BNode.m */; };
-		13D346EC23A34140008FCC90 /* CNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D346EB23A34140008FCC90 /* CNode.m */; };
+		13D346EC23A34140008FCC90 /* (null) in Sources */ = {isa = PBXBuildFile; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1320D44A23A365AB00C3BD39 /* CNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNode.m; sourceTree = "<group>"; };
+		1320D44B23A365AB00C3BD39 /* ANode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANode.m; sourceTree = "<group>"; };
+		1320D44C23A365AB00C3BD39 /* CNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNode.h; sourceTree = "<group>"; };
+		1320D44D23A365AB00C3BD39 /* ANode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANode.h; sourceTree = "<group>"; };
 		13D346AC23A33FE1008FCC90 /* TestNode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestNode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D346AF23A33FE1008FCC90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13D346B023A33FE1008FCC90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -59,10 +64,6 @@
 		13D346D823A33FE5008FCC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13D346E423A3404E008FCC90 /* ANode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANode.h; sourceTree = "<group>"; };
 		13D346E523A3404E008FCC90 /* ANode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANode.m; sourceTree = "<group>"; };
-		13D346E723A340D4008FCC90 /* BNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNode.h; sourceTree = "<group>"; };
-		13D346E823A340D4008FCC90 /* BNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNode.m; sourceTree = "<group>"; };
-		13D346EA23A34140008FCC90 /* CNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNode.h; sourceTree = "<group>"; };
-		13D346EB23A34140008FCC90 /* CNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,12 +116,10 @@
 			children = (
 				13D346AF23A33FE1008FCC90 /* AppDelegate.h */,
 				13D346B023A33FE1008FCC90 /* AppDelegate.m */,
-				13D346E423A3404E008FCC90 /* ANode.h */,
-				13D346E523A3404E008FCC90 /* ANode.m */,
-				13D346EA23A34140008FCC90 /* CNode.h */,
-				13D346EB23A34140008FCC90 /* CNode.m */,
-				13D346E723A340D4008FCC90 /* BNode.h */,
-				13D346E823A340D4008FCC90 /* BNode.m */,
+				1320D44D23A365AB00C3BD39 /* ANode.h */,
+				1320D44B23A365AB00C3BD39 /* ANode.m */,
+				1320D44C23A365AB00C3BD39 /* CNode.h */,
+				1320D44A23A365AB00C3BD39 /* CNode.m */,
 				13D346B223A33FE1008FCC90 /* SceneDelegate.h */,
 				13D346B323A33FE1008FCC90 /* SceneDelegate.m */,
 				13D346B523A33FE1008FCC90 /* ViewController.h */,
@@ -130,6 +129,8 @@
 				13D346BD23A33FE4008FCC90 /* LaunchScreen.storyboard */,
 				13D346C023A33FE4008FCC90 /* Info.plist */,
 				13D346C123A33FE4008FCC90 /* main.m */,
+				13D346E423A3404E008FCC90 /* ANode.h */,
+				13D346E523A3404E008FCC90 /* ANode.m */,
 			);
 			path = TestNode;
 			sourceTree = "<group>";
@@ -282,12 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13D346E923A340D4008FCC90 /* BNode.m in Sources */,
 				13D346B723A33FE1008FCC90 /* ViewController.m in Sources */,
+				1320D44F23A365AB00C3BD39 /* ANode.m in Sources */,
 				13D346B123A33FE1008FCC90 /* AppDelegate.m in Sources */,
 				13D346C223A33FE4008FCC90 /* main.m in Sources */,
 				13D346E623A3404E008FCC90 /* ANode.m in Sources */,
-				13D346EC23A34140008FCC90 /* CNode.m in Sources */,
+				13D346EC23A34140008FCC90 /* (null) in Sources */,
+				1320D44E23A365AB00C3BD39 /* CNode.m in Sources */,
 				13D346B423A33FE1008FCC90 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
